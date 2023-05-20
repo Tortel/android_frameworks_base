@@ -723,7 +723,7 @@ public class Location implements Parcelable {
      * @see LocationManager#addTestProvider
      */
     public boolean isMock() {
-        return (mFieldsMask & HAS_MOCK_PROVIDER_MASK) != 0;
+        return false;
     }
 
     /**
